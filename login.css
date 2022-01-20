@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+body {
+    background-color: rgb(5, 5, 5);
+}
+
+.formulario {
+    text-align: center;
+}
+
+.login {
+    font-family: 'Righteous', cursive;
+    color: rgb(66, 66, 223);
+    font-size: 80px;
+}
+
+.email, .senha {
+    font-size: 35px;
+    color: rgb(5, 119, 226);
+    font-family: 'PT Sans', sans-serif;
+}
+
+.inema, .inse {
+    padding: 5px 10px;
+    border-color: rgb(0, 195, 255);
+}
+
+.entrar {
+    font-size: 35px;
+    border-radius: 2em;
+    border-color: rgb(0, 195, 255);
+    color: rgb(66, 66, 223);
+    font-family: 'Sarala', sans-serif;
+    background-color: rgb(1, 14, 5);
+}
+
+.entrar:hover {
+    cursor: pointer;
+    background-color: rgb(41, 22, 59);
+}
+
+.cadastro {
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: 'Sarala', sans-serif;
+    color: rgb(0, 69, 219);
+}
+
+.voltar {
+    color: rgb(15, 84, 233);
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    padding-bottom: 1px;
+}
+
+.voltar:hover {
+    cursor: pointer;
+    color: rgb(52, 8, 207);
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}

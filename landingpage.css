@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+body {
+    background-color: black;
+}
+
+#menu {
+    display: flex;
+    align-items: center;    
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.navegacao {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 650px;
+    gap: 70px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.home:hover {
+    cursor: pointer;
+    color: rgb(150, 14, 212);
+}
+
+.noticias:hover {
+    cursor: pointer;
+    color: rgb(150, 14, 212);
+}
+
+.cadastro:hover {
+    cursor: pointer;
+    color: rgb(150, 14, 212);
+}
+
+.login:hover {
+    cursor: pointer;
+    color: rgb(150, 14, 212);
+}
+
+.logo {
+    margin-left: 80px;
+    max-width: 80px;
+}
+
+.con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#conteudo {
+    font-size: 35px;
+}
+
+.titulo {
+    font-family: 'Righteous', cursive;
+    color: rgb(66, 66, 223);
+}
+
+.frase-principal {
+    font-family: 'Sarala', sans-serif;
+    color: rgb(16, 131, 197);
+    font-weight: bold;
+}
+
+.botao {
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(12, 169, 197);
+    color: white;
+    font-weight: bold;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: rgb(8, 122, 167)
+}
+
+.rodape {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    color: rgb(66, 66, 223);
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+
+

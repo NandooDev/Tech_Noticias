@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+body {
+    background-color: black;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo {
+    font-family: 'Righteous', cursive;
+    color: rgb(66, 66, 223);
+    font-size: 80px;
+    text-align: center;
+}
+
+.inicial {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(5, 119, 226);
+}
+
+.inno, .inem, .inse, .incon {
+    padding: 5px 10px;
+    border-color: rgb(0, 195, 255);
+}
+
+.voltar {
+    color: rgb(15, 84, 233);
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    padding-bottom: 1px;
+}
+
+.voltar:hover {
+    cursor: pointer;
+    color: rgb(52, 8, 207);
+}
+
+.sexo {
+    margin-left: 100px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(5, 119, 226);
+    font-size: 20px;
+}
+
+.cadastrar {
+    font-size: 35px;
+    border-radius: 2em;
+    border-color: rgb(0, 195, 255);
+    color: rgb(66, 66, 223);
+    font-family: 'Sarala', sans-serif;
+    background-color: rgb(1, 14, 5);
+    margin-left: 100px;
+}
+
+.cadastrar:hover {
+    cursor: pointer;
+    background-color: rgb(41, 22, 59);
+}
+
+.login {
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: 'Sarala', sans-serif;
+    color: rgb(0, 69, 219);
+    margin-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
